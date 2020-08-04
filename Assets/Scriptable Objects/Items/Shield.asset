@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21303eed147d560419091138c8f207f6, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: -3301332275463831685, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+    type: 3}
+  stackable: 0
+  type: 3
+  description: 'A Shield
+
+'
+  data:
+    Name: 
+    Id: 10
+    buffs:
+    - attribute: 2
+      value: 0
+      min: 0
+      max: 20
+    - attribute: 3
+      value: 0
+      min: 0
+      max: 20
+  atkBonus: 0
+  defenceBonus: 25
